@@ -1,0 +1,28 @@
+# Secrets & env
+.env
+*.env
+secrets/
+*.key
+*.pem
+
+# Lab capture / evidence artifacts (keep these out of git)
+*.pcap
+*.pcapng
+*.evtx
+*.raw
+*.mem
+captures/
+evidence/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
